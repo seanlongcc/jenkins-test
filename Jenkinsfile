@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python -u jenkinstest.py'
+                sh 'python --version'
             }
         }
     }
