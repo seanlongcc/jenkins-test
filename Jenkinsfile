@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh '"C:\Users\schaconcai\AppData\Local\Programs\Python\Python310\python.exe" --version'
             }
         }
     }
