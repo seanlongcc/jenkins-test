@@ -1,9 +1,14 @@
 pipeline {
-    agent any
+    agent {
+    node {
+        label 'python310'
+        customWorkspace 'C:/Users/schaconcai/AppData/Local/Programs/Python/Python310'
+    }
+}
     stages {
         stage('build') {
             steps {
-                sh '"C:\Users\schaconcai\AppData\Local\Programs\Python\Python310\python.exe" --version'
+                sh 'pyton --version'
             }
         }
     }
