@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('version check') {
             steps {
-                sh 'C:/Users/schaconcai/AppData/Local/Programs/Python/Python310/python.exe --version'
+                sh 'python --version'
             }
         }
     }
