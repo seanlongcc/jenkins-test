@@ -1,5 +1,3 @@
-print('hello jenkins')
-print('github push test 1')
-print('github push test 2')
-print('final, push test 3')
-print('i lied, push test again 4')
+#!/bin/python
+print "Content-type: text/html"
+print 'jenkins pipeline test'
